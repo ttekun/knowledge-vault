@@ -20,9 +20,18 @@ Personal knowledge repository — deep research reports, notes, and runbooks.
 ***REMOVED***
 
 ### Hermes Agent Operations
-***REMOVED***
-***REMOVED***
-***REMOVED***
+
+#### Troubleshooting
+| Date | Title | Description |
+|------|-------|-------------|
+| 2026-06-28 | [WSL Ollama Port 11434 Conflict](hermes/troubleshooting/wsl-ollama-port-conflict.md) | Linux ollama.service restart loop (8,596×/day) due to WSL mirrored networking port conflict |
+| 2026-06-28 | [Auto-Update Cron SIGKILL Fix](hermes/troubleshooting/auto-update-cron-fix.md) | setsid → systemd-run --scope to survive gateway cgroup teardown |
+| 2026-06-28 | [MCP ollama-web API Key Issue](hermes/troubleshooting/mcp-api-key-issue.md) | _build_safe_env() strips API keys from MCP subprocess; fix via config env block |
+
+#### Runbooks
+| Date | Title | Description |
+|------|-------|-------------|
+| 2026-06-21 | [Multi-Profile Setup](hermes/runbooks/multi-profile-setup.md) | Two Telegram bots on one WSL host with isolated profiles + shared SOUL/MEMORY |
 
 ---
 
