@@ -154,7 +154,7 @@ return escalate_to_human(state)
 
 ## 11. 다음 단계: Eval Engineering
 
-루프 엔지니어링의 자연스러운 다음 레이어로 **Eval Engineering**이浮上하고 있습니다 (🟡 AI Builder Club, Tosea.ai):
+루프 엔지니어링의 자연스러운 다음 레이어로 **Eval Engineering**이 부상하고 있습니다 (🟡 AI Builder Club, Tosea.ai):
 
 - 루프 엔지니어링 = 에이전트가 실행할 루프를 설계
 - Eval 엔지니어링 = 그 루프가 통과해야 할 **기준선(bar)**을 설계
