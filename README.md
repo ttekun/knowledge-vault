@@ -5,19 +5,9 @@ Personal knowledge repository — deep research reports, notes, and runbooks.
 ## Index
 
 ### AI / Agents
-***REMOVED***
-***REMOVED***
+| Date | Title | Confidence |
+|------|-------|------------|
 | 2026-07-04 | [Loop Engineering — Deep Research](ai/loop-engineering-research.md) | 🟡 |
-
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
 
 ### Hermes Agent Operations
 
@@ -49,7 +39,5 @@ Personal knowledge repository — deep research reports, notes, and runbooks.
 knowledge-vault/
 ├── README.md            ← this file (auto-updated index)
 ├── ai/                  ← AI, LLM, agents, prompt engineering
-***REMOVED***
-***REMOVED***
 └── hermes/              ← Hermes Agent operations, troubleshooting, runbooks
 ```
