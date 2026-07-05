@@ -1,3 +1,11 @@
+---
+type: Troubleshooting
+title: "MCP ollama-web API Key Issue"
+description: "Hermes _build_safe_env() strips API keys from MCP subprocess env. Fix via explicit env block in config.yaml."
+tags: [mcp, ollama-web, api-key, config, env]
+timestamp: 2026-06-28T08:13:00+09:00
+---
+
 # MCP ollama-web API Key Issue
 
 > **Date resolved**: 2026-06-28  
@@ -40,6 +48,11 @@ hermes mcp test ollama-web
 # web_search via mcp_ollama_web_web_search
 # web_fetch via mcp_ollama_web_web_fetch
 ```
+
+## Related
+
+- [Auto-Update Cron SIGKILL Fix](/hermes/troubleshooting/auto-update-cron-fix.md) — same investigation session, both fixed 2026-06-28
+- [Multi-Profile Setup](/hermes/runbooks/multi-profile-setup.md) — MCP server runs under both profiles
 
 ## Architecture
 

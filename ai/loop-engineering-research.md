@@ -1,3 +1,11 @@
+---
+type: Research Report
+title: "Loop Engineering — Deep Research"
+description: "In-depth survey of Loop Engineering paradigm: 5 components, verifier bottleneck, Andrew Ng's 3-loop model, open/closed loops, failure modes."
+tags: [ai, agents, loop-engineering, prompt-engineering, context-engineering]
+timestamp: 2026-07-04T16:33:00+09:00
+---
+
 # 루프 엔지니어링 (Loop Engineering) — 심층 조사
 
 > **조사일**: 2026-07-04  

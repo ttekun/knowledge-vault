@@ -1,3 +1,11 @@
+---
+type: Runbook
+title: "Multi-Profile Setup"
+description: "Two independent Hermes Agent profiles on one WSL2 host with separate Telegram bots and systemd gateway services."
+tags: [hermes, multi-profile, telegram, systemd, gateway]
+timestamp: 2026-06-21T14:56:00+09:00
+---
+
 # Multi-Profile Setup Runbook
 
 > **Date created**: 2026-06-21  
@@ -85,6 +93,11 @@ systemctl --user status hermes-gateway hermes-gateway-second
 hermes -p second chat -q "ping"
 hermes chat -q "ping"
 ```
+
+## Related
+
+- [WSL Ollama Port 11434 Conflict](/hermes/troubleshooting/wsl-ollama-port-conflict.md) — both gateways affected by port conflict
+- [MCP ollama-web API Key Issue](/hermes/troubleshooting/mcp-api-key-issue.md) — MCP server runs under both profiles
 
 ## Maintenance Notes
 

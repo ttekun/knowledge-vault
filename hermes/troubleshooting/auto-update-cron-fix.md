@@ -1,3 +1,11 @@
+---
+type: Troubleshooting
+title: "Auto-Update Cron SIGKILL Fix"
+description: "Cron auto-update job silently killed by gateway cgroup teardown. Fixed by replacing setsid with systemd-run --scope."
+tags: [cron, systemd, cgroup, auto-update, sigkill]
+timestamp: 2026-06-28T08:15:00+09:00
+---
+
 # Auto-Update Cron SIGKILL Fix
 
 > **Date resolved**: 2026-06-28  
@@ -75,6 +83,11 @@ dev ALL=(ALL) NOPASSWD: /usr/bin/true
 ```
 
 This grants passwordless sudo for `/usr/bin/true` **only**. All other sudo commands still require a password. The agent cannot escalate privileges beyond this single command.
+
+## Related
+
+- [WSL Ollama Port 11434 Conflict](/hermes/troubleshooting/wsl-ollama-port-conflict.md) — another WSL/systemd issue resolved same day
+- [MCP ollama-web API Key Issue](/hermes/troubleshooting/mcp-api-key-issue.md) — same investigation session
 
 ## Timeline
 

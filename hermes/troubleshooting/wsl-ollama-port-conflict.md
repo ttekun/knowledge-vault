@@ -1,3 +1,11 @@
+---
+type: Troubleshooting
+title: "WSL Ollama Port 11434 Conflict"
+description: "Linux ollama.service restart loop (~8,596×/day) due to WSL2 mirrored networking port conflict with Windows-side Ollama."
+tags: [wsl, ollama, systemd, networking, port-conflict]
+timestamp: 2026-06-28T08:11:00+09:00
+---
+
 # WSL Ollama Port 11434 Conflict
 
 > **Date resolved**: 2026-06-28  
@@ -59,6 +67,11 @@ sudo systemctl mask ollama
 | Windows Ollama | Runs on port 11434 (desired) |
 | Linux Ollama | Disabled + masked (desired) |
 | Date disabled | 2026-06-28 |
+
+## Related
+
+- [Auto-Update Cron SIGKILL Fix](/hermes/troubleshooting/auto-update-cron-fix.md) — related systemd/cron issue
+- [Multi-Profile Setup](/hermes/runbooks/multi-profile-setup.md) — both gateways affected by this conflict
 
 ## Notes
 
