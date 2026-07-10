@@ -1,5 +1,8 @@
 # Knowledge Vault — Update Log
 
+## 2026-07-10
+* **Creation**: Added [ctx Semantic Search on WSL glibc 2.35](/hermes/troubleshooting/ctx-semantic-search-glibc-fix.md) troubleshooting doc. Covers building ctx with ort-load-dynamic, downloading ONNX Runtime 1.24.2 (glibc 2.27 compatible), and enabling semantic search on WSL Ubuntu 22.04 without OS upgrade.
+
 ## 2026-07-06
 * **Creation**: Added [AI / Agent Trends — Weekly Radar 2026-07-06](/ai/2026-07-06-ai-agent-trends.md) report. Covers Fable 5 export-control lift (2026-06-30/07-01), GPT-5.6 Sol/Terra/Luna limited preview (2026-06-26), Claude for Microsoft 365 add-ins, and loop engineering paradigm consolidation.
 
