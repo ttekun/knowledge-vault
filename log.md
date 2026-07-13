@@ -1,5 +1,8 @@
 # Knowledge Vault — Update Log
 
+## 2026-07-13
+* **Creation**: Added [AI / Agent Trends — Weekly Radar 2026-07-13](/ai/2026-07-13-ai-agent-trends.md) report. Covers GPT-5.6 GA launch (Sol/Terra/Luna), Meta Muse Spark 1.1 first paid tier, GPT-Live full-duplex voice, Gemini Managed Agents upgrade, Microsoft Agent Governance Toolkit, Alberta Claude Code case study, White House voluntary standards negotiations, and harness engineering paradigm consolidation.
+
 ## 2026-07-10
 * **Creation**: Added [ctx Semantic Search on WSL glibc 2.35](/hermes/troubleshooting/ctx-semantic-search-glibc-fix.md) troubleshooting doc. Covers building ctx with ort-load-dynamic, downloading ONNX Runtime 1.24.2 (glibc 2.27 compatible), and enabling semantic search on WSL Ubuntu 22.04 without OS upgrade.
 
